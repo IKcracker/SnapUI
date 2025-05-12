@@ -1,4 +1,4 @@
-import { Nav } from "@/Components";
+import { DemoEditor, Nav } from "@/Components";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -45,7 +45,8 @@ function Home() {
         </div>
       </section>
       <section className="mt-10">
-        <h2 className="text-2xl font-bold">{`Let's start coding`}</h2>
+        <h2 className="text-2xl font-bold my-2">{`Let's start coding`}</h2>
+        <DemoEditor />
       </section>
     </main>
   );

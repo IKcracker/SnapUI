@@ -1,3 +1,3 @@
 import Nav from "./nav";
-
-export { Nav };
+import { DemoEditor } from "./Code-Editor/Demo";
+export { Nav, DemoEditor };
